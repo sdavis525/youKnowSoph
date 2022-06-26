@@ -32,9 +32,9 @@ body {
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: 0.1em;
-  background: var(--dark);
+  background: background-image: linear-gradient(to right, pink , white);;
   color: var(--light);
-  font-family: 'Poiret One', cursive;
+  font-family: sans-serif;
 }
 
 h1,
@@ -147,6 +147,8 @@ li {
   list-style: none;
 }
 
+
+
 nav a:hover {
   text-decoration: none;
 }
@@ -160,6 +162,16 @@ textarea {
   height: 120px;
   border: 3px solid #cccccc;
   padding: 5px;
+}
+
+.screenshots {
+  display: flexbox;
+  flex-wrap: wrap;
+  padding: 5px;
+  justify-content: space-evenly;
+  height: 200px;
+  width: 300px;
+
 }
 
 .container {
@@ -239,6 +251,13 @@ textarea {
   cursor: pointer;
 }
 
+
+.icons {
+  width: 100px;
+  height: 80px;
+  padding: 20px;
+}
+
 .modalBackdrop {
   background: rgba(0, 0, 0, 0.65);
   bottom: 0;
@@ -263,6 +282,16 @@ textarea {
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 25px;
+
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  height: 400px;
+  padding: 25px;
 }
 
 button {
@@ -289,3 +318,5 @@ a {
 .navActive {
   color: var(--secondary);
 }
+
+

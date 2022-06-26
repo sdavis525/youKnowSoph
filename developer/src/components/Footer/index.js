@@ -12,21 +12,21 @@ function Footer () {
           <img
             src={gitHub}
             alt="GitHub"
-            className="icon"
+            className="icons"
           />
         </a>
         <a href="mailto:mavvymarketing@gmail.io">
           <img
             src={gmail}
-            alt="Gmail Link"
-            className="icon"
+            alt="Gmail"
+            className="icons"
           />
         </a>
         <a href="https://www.linkedin.com/in/sophiadavis525">
           <img
             src={linkedin}
             alt="LinkedIn"
-            className="icon"
+            className="icons"
           />
         </a>
            </div>
