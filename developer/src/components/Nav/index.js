@@ -1,57 +1,38 @@
-import React, { useEffect } from 'react';
-import { capitalizeFirstLetter } from '../../utils/helpers';
+import React, { useCallback } from 'react';
+import resume from "../../assets/images/SophiaResume 22.pdf";
 
-function Nav(props) {
-  const {
-    categories = [],
-    setCurrentCategory,
-    contactSelected,
-    currentCategory,
-    setContactSelected,
-  } = props;
+function Nav({ selected, onSelect }) {
+    const navHandler = useCallback((evt) => {
+        const page = evt.currentTarget.dataset.page
+        onSelect(page)
+    }, [])
 
-  useEffect(() => {
-    document.title = capitalizeFirstLetter(currentCategory.name);
-  }, [currentCategory]);
 
-  return (
-    <header className="flex-row px-1">
-      <h2>
-        <a data-testid="link" href="/">
-          <span role="img" aria-label="camera"> 📸</span> Oh Snap!
-        </a>
-      </h2>
-      <nav>
-        <ul className="flex-row">
-          <li className="mx-2">
-            <a data-testid="about" href="#about" onClick={() => setContactSelected(false)}>
-              About me
-            </a>
-          </li>
-          <li className={`mx-2 ${contactSelected && 'navActive'}`}>
-            <span onClick={() => setContactSelected(true)}>Contact</span>
-          </li>
-          {categories.map((category) => (
-            <li
-              className={`mx-1 ${
-                currentCategory.name === category.name && !contactSelected && 'navActive'
-                }`}
-              key={category.name}
-            >
-              <span
-                onClick={() => {
-                  setCurrentCategory(category);
-                  setContactSelected(false);
-                }}
-              >
-                {capitalizeFirstLetter(category.name)}
-              </span>
-            </li>
-          ))}
-        </ul>
-      </nav>
-    </header>
-  );
+    return (
+        <header>
+        <h2>
+            <div data-page="home" onClick={navHandler}>
+                <span>Sophia Davis</span>
+            </div>
+        </h2>
+        <nav>
+            <ul className="flex-row">
+                <li className={`mx-2 ${selected === 'about' && 'navActive'}`} onClick={navHandler}  data-page="about">
+                    <span data-testid="about">About me</span>
+                </li>
+                <li className={`mx-2 ${selected === 'contact' && 'navActive'}`}  onClick={navHandler} data-page="contact">
+                    <span>Contact</span>
+                </li>
+                <li className={`mx-2 ${selected === 'portfolio' ? 'navActive' : ''}`} onClick={navHandler}  data-page="portfolio">
+                    <span>Portfolio</span>
+                </li>
+                <li className="mx-2">
+                    <a href={resume} target="_blank">Resume</a>
+                </li>
+            </ul>
+        </nav>
+        </header>
+    );
 }
 
 export default Nav;
