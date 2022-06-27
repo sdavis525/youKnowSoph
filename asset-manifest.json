@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/youKnowSoph/static/css/main.456760dc.css",
+    "main.js": "/youKnowSoph/static/js/main.3543e6fe.js",
+    "static/js/787.aaac8cfd.chunk.js": "/youKnowSoph/static/js/787.aaac8cfd.chunk.js",
+    "static/media/Animation.PNG": "/youKnowSoph/static/media/Animation.1858fe1f81a0d97eb8fe.PNG",
+    "static/media/mindingcoins.png": "/youKnowSoph/static/media/mindingcoins.98ae079f836addd0370b.png",
+    "static/media/noSQL.png": "/youKnowSoph/static/media/noSQL.6482f9fac34e51754060.png",
+    "static/media/I++.png": "/youKnowSoph/static/media/I++.7d0191735171e5820abc.png",
+    "static/media/SophiaResume 22.pdf": "/youKnowSoph/static/media/SophiaResume 22.790c54021cd6222894f0.pdf",
+    "index.html": "/youKnowSoph/index.html",
+    "main.456760dc.css.map": "/youKnowSoph/static/css/main.456760dc.css.map",
+    "main.3543e6fe.js.map": "/youKnowSoph/static/js/main.3543e6fe.js.map",
+    "787.aaac8cfd.chunk.js.map": "/youKnowSoph/static/js/787.aaac8cfd.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.456760dc.css",
+    "static/js/main.3543e6fe.js"
+  ]
+}
