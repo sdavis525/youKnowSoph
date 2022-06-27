@@ -10,16 +10,16 @@
 
 ## Description
 
-reate a portfolio, using your new React skills to help set you apart from other developers whose portfolios don’t use the latest technologies.
+Create a portfolio, using your new React skills to help set you apart from other developers whose portfolios don’t use the latest technologies.
 
 
 ## User Story 
 
 
 ```sh
-AS AN avid traveler
-I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
-SO THAT my account balance is accurate when I am traveling 
+AS AN employer looking for candidates with experience building single-page applications
+I WANT to view a potential employee's deployed React portfolio of work samples
+SO THAT I can assess whether they're a good candidate for an open position
 ```
 ## Demo
 
@@ -32,8 +32,6 @@ https://sdavis525.github.io/youKnowSoph/
 ```sh
 npm start
 ```
-
-
 
 ## Author
 
