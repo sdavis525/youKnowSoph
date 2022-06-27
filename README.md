@@ -21,11 +21,11 @@ AS AN avid traveler
 I WANT to be able to track my withdrawals and deposits with or without a data/internet connection
 SO THAT my account balance is accurate when I am traveling 
 ```
-## Demo 
-<img width="1512" alt="Screen Shot 2022-06-21 at 3 55 37 PM" src="https://user-images.githubusercontent.com/98237529/174886678-f2006e09-aa12-455c-a037-854744234fa3.png">
+## Demo
 
+<img width="1512" alt="Screen Shot 2022-06-27 at 6 13 54 PM" src="https://user-images.githubusercontent.com/98237529/176045117-82b06a59-b740-49bc-a96f-101b20b07430.png">
 
-https://angel-numbers.herokuapp.com/
+https://sdavis525.github.io/youKnowSoph/
 
 ## Install
 
@@ -33,11 +33,7 @@ https://angel-numbers.herokuapp.com/
 npm start
 ```
 
-## Usage
 
-```sh
-mongod
-```
 
 ## Author
 
