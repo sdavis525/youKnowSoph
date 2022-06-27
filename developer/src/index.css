@@ -32,7 +32,7 @@ body {
   line-height: 1.5;
   font-size: 18px;
   letter-spacing: 0.1em;
-  background: background-image: linear-gradient(to right, pink , white);;
+  background-image: linear-gradient(white, pink, violet);
   color: var(--light);
   font-family: sans-serif;
 }
@@ -47,6 +47,7 @@ h6 {
   font-weight: 500;
   margin: 5px 0;
   line-height: 1.25;
+  color: black;
 }
 
 h1 {
@@ -89,7 +90,8 @@ a:hover {
 }
 
 header {
-  background: var(--dark);
+  background: linear-gradient(white, pink, violet);
+  
 }
 
 header a {
@@ -147,7 +149,9 @@ li {
   list-style: none;
 }
 
-
+nav {
+  background-image: linear-gradient(white, pink, violet);
+}
 
 nav a:hover {
   text-decoration: none;
@@ -202,6 +206,7 @@ textarea {
 .mx-2 {
   margin-right: var(--spacing-two);
   margin-left: var(--spacing-two);
+ 
 }
 
 .my-1 {
@@ -210,8 +215,9 @@ textarea {
 }
 
 .my-2 {
-  margin-top: var(--spacing-two);
-  margin-bottom: var(--spacing-two);
+  margin-top: var(--spacing-one);
+  margin-bottom: var(--spacing-one);
+
 }
 
 .my-5 {
