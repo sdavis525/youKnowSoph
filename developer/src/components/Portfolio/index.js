@@ -30,6 +30,13 @@ function Portfolio() {
                 className="screenshot"
             />
         </a>
+        <a href="https://sdavis525.github.io/">
+            <img
+                src={WorkoutApp}
+                alt="BNB"
+                className="screenshot"
+            />
+        </a>
       </section>
     );
   }
