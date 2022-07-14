@@ -2,6 +2,7 @@ import React from 'react';
 import datingApp from "../../assets/images/I++.png";
 import mindingCoins from "../../assets/images/mindingcoins.png";
 import noSQL from "../../assets/images/noSQL.png";
+import WorkoutApp from "../../assets/images/BNB.jpg"
 
 
 function Portfolio() {
